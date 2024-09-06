@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pessoas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Adicionar Pessoa</h1>
+        <form id="formPessoa">
+            <label for="rua">CPF</label>
+            <input type="text" id="CPF" name="CPF" required>
+
+            <label for="cidade">Nome</label>
+            <input type="text" id="Nome" name="Nome" required>
+
+            <label for="estado">Telefone</label>
+            <input type="text" id="Telefone" name="Telefone" required>
+
+            <button type="submit">Enviar</button>
+        </form>
+        <div id="message"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
