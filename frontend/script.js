@@ -1,4 +1,4 @@
-Document.getElementById('formPessoa').addEventListener('submit', async (event) => {
+document.getElementById('formPessoa').addEventListener('submit', async (event) => {
     event.preventDefault();
 
     const CPF = document.getElementById('CPF').value;
@@ -8,7 +8,7 @@ Document.getElementById('formPessoa').addEventListener('submit', async (event) =
     const pessoaData = {
         CPF,
         Nome,
-        Telefone
+        Telefone,
     };
 
     try {
